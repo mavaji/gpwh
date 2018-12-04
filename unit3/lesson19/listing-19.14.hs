@@ -36,7 +36,7 @@ organToContainer organ = Bag organ
 placeInLocation :: Container -> (Location, Container)
 placeInLocation (Vat a) = (Lab, Vat a)
 placeInLocation (Cooler a) = (Lab, Cooler a)
-placeILocation (Bag a) = (Kitchen, Bag a)
+placeInLocation (Bag a) = (Kitchen, Bag a)
 
 data Container = Vat Organ | Cooler Organ | Bag Organ
 
