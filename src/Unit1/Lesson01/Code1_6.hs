@@ -1,5 +1,7 @@
-main :: IO()
-main = do 
+module Unit1.Lesson01.Code1_6 where
+
+main1_6 :: IO()
+main1_6 = do
   print "Who is the email for?"
   recipient <- getLine
   print "What is the Title?"
