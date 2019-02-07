@@ -1,5 +1,7 @@
-main :: IO ()
-main = do 
+module Unit1.Lesson04.AddressLetter where
+
+mainAddressLetter :: IO ()
+mainAddressLetter  = do
     print (addressLetter ("Bob", "Smith") "ny")
     print (addressLetter ("Bob", "Jones") "ny")
     print (addressLetter ("Samantha", "Smith") "sf")
@@ -16,15 +18,13 @@ getLocationFunction location = case location of
     _ -> (\name -> (fst name) ++ " " ++ (snd name))
 
 sfOffice name = if lastName < "L"
-                then nameText
-            ++ " - PO Box 1234 - San Fransisco, CA, 94111"
-        else nameText
-            ++ " - PO Box 1010 - San Fransisco, CA, 94109"
-    where lastName = snd name
-          nameText = (fst name) ++ " " ++ lastName
+                then nameText ++ " - PO Box 1234 - San Fransisco, CA, 94111"
+                else nameText ++ " - PO Box 1010 - San Fransisco, CA, 94109"
+                where lastName = snd name
+                      nameText = (fst name) ++ " " ++ lastName
 
 nyOffice name = nameText ++ ": PO Box 789 - New York, NY, 10013"
-    where nameText = (fst name) ++ " " ++ (snd name)
+                where nameText = (fst name) ++ " " ++ (snd name)
 
 renoOffice name = nameText ++ " - PO Box 456 - Reno, NV 89523"
-    where nameText = snd name
+                  where nameText = snd name
