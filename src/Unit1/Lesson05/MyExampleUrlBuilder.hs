@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit1.Lesson05.MyExampleUrlBuilder where
+
+mainMyExampleUrlBuilder :: IO()
+mainMyExampleUrlBuilder = do
     print (getRequestUrl "http://example.com" "1337hAsk3ll" "book" "1234")
     print (exampleUrlBuilder "1337hAsk3ll" "book" "1234")
     print (myExampleUrlBuilder "book" "1234")

@@ -21,6 +21,8 @@ library
                      , Unit1.Lesson04.AddressLetter
                      , Unit1.Lesson04.Code4_4
                      , Unit1.Lesson04.Code4_5
+                     , Unit1.Lesson05.MyExampleUrlBuilder
+                     , Unit1.Lesson06.AssignToGroups
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
