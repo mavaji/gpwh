@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit1.Lesson07.SayAmount_v1 where
+
+mainSayAmountV1 :: IO()
+mainSayAmountV1 = do
     print (sayAmount 12)
     print (sayAmount 1)
 

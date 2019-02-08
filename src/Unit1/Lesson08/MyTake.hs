@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit1.Lesson08.MyTake where
+
+mainMyTake :: IO()
+mainMyTake = do
     print (myTake 3 "hello world")
     print (myTake 4 [1])
 

@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit1.Lesson08.Collatz where
+
+mainCollatz :: IO()
+mainCollatz = do
     print (collatz 9)
     print (collatz 999)
     print (collatz 92)

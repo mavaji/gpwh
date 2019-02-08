@@ -23,6 +23,20 @@ library
                      , Unit1.Lesson04.Code4_5
                      , Unit1.Lesson05.MyExampleUrlBuilder
                      , Unit1.Lesson06.AssignToGroups
+                     , Unit1.Lesson07.MyGCD
+                     , Unit1.Lesson07.SayAmount_v1
+                     , Unit1.Lesson07.SayAmount_v2
+                     , Unit1.Lesson08.Ackermann
+                     , Unit1.Lesson08.Collatz
+                     , Unit1.Lesson08.MyCycle
+                     , Unit1.Lesson08.MyLength
+                     , Unit1.Lesson08.MyTake
+                     , Unit1.Lesson09.MyFilter
+                     , Unit1.Lesson09.MyFoldl
+                     , Unit1.Lesson09.MyFoldr
+                     , Unit1.Lesson09.MyMap
+                     , Unit1.Lesson09.MyReverse
+                     , Unit1.Lesson10.Cup
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 

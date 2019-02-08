@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit1.Lesson08.MyLength where
+
+mainMyLength :: IO()
+mainMyLength = do
     print (myLength "asdf")
     print (myLength [1,2,4,5])
 

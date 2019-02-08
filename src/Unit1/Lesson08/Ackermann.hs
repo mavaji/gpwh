@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit1.Lesson08.Ackermann where
+
+mainAckermann :: IO()
+mainAckermann = do
     print (ackermann 3 3)
     print (ackermann 3 8)
     print (ackermann 3 9)
