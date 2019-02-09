@@ -38,6 +38,8 @@ library
                      , Unit1.Lesson09.MyReverse
                      , Unit1.Lesson10.Cup
                      , Unit1.Lesson10.Robot
+                     , Unit2.Lesson12.Code12_1
+                     , Unit2.Lesson12.Code12_4
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 

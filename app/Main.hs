@@ -22,7 +22,9 @@ module Main where
 --import Unit1.Lesson09.MyMap
 --import Unit1.Lesson09.MyReverse
 --import Unit1.Lesson10.Cup
-import Unit1.Lesson10.Robot
+--import Unit1.Lesson10.Robot
+--import Unit2.Lesson12.Code12_1
+import Unit2.Lesson12.Code12_4
 
 main :: IO ()
 main = do
@@ -48,4 +50,6 @@ main = do
 --    mainMyMap
 --    mainMyReverse
 --    mainCup
-    mainRobot
+--    mainRobot
+--    main12_1
+    main12_4
