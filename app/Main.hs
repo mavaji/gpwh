@@ -21,7 +21,8 @@ module Main where
 --import Unit1.Lesson09.MyFoldr
 --import Unit1.Lesson09.MyMap
 --import Unit1.Lesson09.MyReverse
-import Unit1.Lesson10.Cup
+--import Unit1.Lesson10.Cup
+import Unit1.Lesson10.Robot
 
 main :: IO ()
 main = do
@@ -46,4 +47,5 @@ main = do
 --    mainMyFoldr
 --    mainMyMap
 --    mainMyReverse
-    mainCup
+--    mainCup
+    mainRobot

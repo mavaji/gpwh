@@ -1,5 +1,7 @@
-main :: IO ()
-main = do
+module Unit1.Lesson10.Robot where
+
+mainRobot :: IO ()
+mainRobot = do
     print (getAttack killerRobot)
     print (getHP killerRobot)
     print (printRobot killerRobot)

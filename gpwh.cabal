@@ -37,6 +37,7 @@ library
                      , Unit1.Lesson09.MyMap
                      , Unit1.Lesson09.MyReverse
                      , Unit1.Lesson10.Cup
+                     , Unit1.Lesson10.Robot
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
