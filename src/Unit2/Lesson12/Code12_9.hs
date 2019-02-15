@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit2.Lesson12.Code12_9 where
+
+main12_9 :: IO()
+main12_9 = do
    print (showBloodType patient1BT)
    print (showBloodType patient2BT)
    print (showBloodType patient3BT)

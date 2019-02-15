@@ -1,5 +1,7 @@
-main :: IO () 
-main = do
+module Unit2.Lesson12.Code12_14 where
+
+main12_14 :: IO ()
+main12_14 = do
     print (height jackieSmith)
     print (showBloodType (bloodType jackieSmith))
 

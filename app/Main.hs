@@ -24,7 +24,10 @@ module Main where
 --import Unit1.Lesson10.Cup
 --import Unit1.Lesson10.Robot
 --import Unit2.Lesson12.Code12_1
-import Unit2.Lesson12.Code12_4
+--import Unit2.Lesson12.Code12_4
+--import Unit2.Lesson12.Code12_9
+--import Unit2.Lesson12.Code12_11
+import Unit2.Lesson12.Code12_14
 
 main :: IO ()
 main = do
@@ -52,4 +55,7 @@ main = do
 --    mainCup
 --    mainRobot
 --    main12_1
-    main12_4
+--    main12_4
+--    main12_19
+--    main12_11
+    main12_14

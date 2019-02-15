@@ -40,6 +40,9 @@ library
                      , Unit1.Lesson10.Robot
                      , Unit2.Lesson12.Code12_1
                      , Unit2.Lesson12.Code12_4
+                     , Unit2.Lesson12.Code12_9
+                     , Unit2.Lesson12.Code12_11
+                     , Unit2.Lesson12.Code12_14
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
