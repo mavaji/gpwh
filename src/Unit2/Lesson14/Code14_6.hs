@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit2.Lesson14.Code14_6 where
+
+main14_6 :: IO()
+main14_6 = do
     print (S6 == S6)
     print (S6 == S5)
     print (S5 == S6)

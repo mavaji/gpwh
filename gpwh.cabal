@@ -43,6 +43,12 @@ library
                      , Unit2.Lesson12.Code12_9
                      , Unit2.Lesson12.Code12_11
                      , Unit2.Lesson12.Code12_14
+                     , Unit2.Lesson14.Code14_2
+                     , Unit2.Lesson14.Code14_3
+                     , Unit2.Lesson14.Code14_6
+                     , Unit2.Lesson14.Code14_7
+                     , Unit2.Lesson14.Code14_9
+                     , Unit2.Lesson14.Code14_13
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 

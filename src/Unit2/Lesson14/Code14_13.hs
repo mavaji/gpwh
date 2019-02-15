@@ -1,7 +1,9 @@
+module Unit2.Lesson14.Code14_13 where
+
 import Data.List
 
-main :: IO ()
-main = do
+main14_13 :: IO ()
+main14_13 = do
     print (sort names)
 
 data Name = Name (String, String) deriving (Show, Eq)
