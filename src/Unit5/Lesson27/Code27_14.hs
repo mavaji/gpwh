@@ -1,7 +1,9 @@
+module Unit5.Lesson27.Code27_14 where
+
 import qualified Data.Map as Map
 
-main :: IO()
-main = do
+main27_14 :: IO()
+main27_14 = do
     print (Map.lookup 1 htmlPartsDB)
 
 htmlPartsDB :: Map.Map Int Html
