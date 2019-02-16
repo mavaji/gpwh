@@ -1,8 +1,10 @@
+module Unit3.Lesson19.Code19_9 where
+
 import qualified Data.Map as Map
 import Data.List
 
-main :: IO ()
-main = do
+main19_9 :: IO ()
+main19_9 = do
     print cleanList
 
 showOrgan :: Maybe Organ -> String

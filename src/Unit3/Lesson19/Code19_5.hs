@@ -1,7 +1,9 @@
+module Unit3.Lesson19.Code19_5 where
+
 import qualified Data.Map as Map
 
-main :: IO ()
-main = do
+main19_5 :: IO ()
+main19_5 = do
     print (countOrgan Brain availableOrgans)
     print (countOrgan Heart availableOrgans)
 

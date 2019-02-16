@@ -1,7 +1,9 @@
+module Unit3.Lesson19.Code19_14 where
+
 import qualified Data.Map as Map
 
-main :: IO ()
-main = do
+main19_14 :: IO ()
+main19_14 = do
     print (processRequest 13 organCatalog)
     print (processRequest 12 organCatalog)
 

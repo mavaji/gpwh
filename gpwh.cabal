@@ -57,6 +57,10 @@ library
                      , Unit3.Lesson18.Code18_8
                      , Unit3.Lesson18.Code18_11
                      , Unit3.Lesson18.Code18_20
+                     , Unit3.Lesson19.Code19_5
+                     , Unit3.Lesson19.Code19_6
+                     , Unit3.Lesson19.Code19_9
+                     , Unit3.Lesson19.Code19_14
   build-depends:       base >= 4.7 && < 5
                      , containers
   default-language:    Haskell2010

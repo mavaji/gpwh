@@ -1,7 +1,9 @@
+module Unit3.Lesson19.Code19_6 where
+
 import qualified Data.Map as Map
 
-main :: IO ()
-main = do
+main19_6 :: IO ()
+main19_6 = do
     print justTheOrgans
 
 isSomething :: Maybe Organ -> Bool
