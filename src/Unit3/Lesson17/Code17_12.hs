@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit3.Lesson17.Code17_12 where
+
+main17_12 :: IO()
+main17_12 = do
     print (createPTable ["heads", "tails"] [0.5, 0.5])
 
 type Events = [String]

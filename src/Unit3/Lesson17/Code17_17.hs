@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit3.Lesson17.Code17_17 where
+
+main17_17 :: IO()
+main17_17 = do
     print (coin <> spinner)
     print (mconcat [coin,coin,coin])
 

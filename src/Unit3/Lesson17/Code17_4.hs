@@ -1,5 +1,7 @@
-main :: IO()
-main = do
+module Unit3.Lesson17.Code17_4 where
+
+main17_4 :: IO()
+main17_4 = do
     print (Red <> Yellow)
     print (Red <> Blue)
     print (Green <> Purple)

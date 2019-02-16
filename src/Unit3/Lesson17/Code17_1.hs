@@ -1,7 +1,9 @@
+module Unit3.Lesson17.Code17_1 where
+
 import Data.List
 
-main :: IO()
-main = do
+main17_1 :: IO()
+main17_1 = do
     print(myLast [1,2,3])
     print(myMin [8,5,10,13])
     print(myMax [8,5,10,13])
