@@ -1,7 +1,9 @@
+module Unit3.Lesson18.Code18_8 where
+
 import Data.Char
 
-main :: IO ()
-main = do
+main18_8 :: IO ()
+main18_8 = do
     print (transform (*3) aPoint)
     print (transform reverse aPerson)
     print (transform toLower initials)

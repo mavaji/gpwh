@@ -1,7 +1,9 @@
+module Unit3.Lesson18.Code18_20 where
+
 import qualified Data.Map as Map
 
-main :: IO ()
-main = do
+main18_20 :: IO ()
+main18_20 = do
     print (Map.lookup 7 organCatalog)
 
 organCatalog :: Map.Map Int Organ

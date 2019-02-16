@@ -54,7 +54,11 @@ library
                      , Unit3.Lesson17.Code17_5
                      , Unit3.Lesson17.Code17_12
                      , Unit3.Lesson17.Code17_17
+                     , Unit3.Lesson18.Code18_8
+                     , Unit3.Lesson18.Code18_11
+                     , Unit3.Lesson18.Code18_20
   build-depends:       base >= 4.7 && < 5
+                     , containers
   default-language:    Haskell2010
 
 executable gpwh
