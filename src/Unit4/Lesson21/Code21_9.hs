@@ -1,5 +1,7 @@
-main :: IO ()
-main = do
+module Unit4.Lesson21.Code21_9 where
+
+main21_9 :: IO ()
+main21_9 = do
     putStrLn "What is the size of pizza 1"
     size1 <- getLine
     putStrLn "What is the cost of pizza 1"
