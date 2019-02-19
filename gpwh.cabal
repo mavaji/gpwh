@@ -15,58 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Unit1.Lesson01.Code1_1
-                     , Unit1.Lesson01.Code1_6
-                     , Unit1.Lesson03.Code3_4
-                     , Unit1.Lesson04.AddressLetter
-                     , Unit1.Lesson04.Code4_4
-                     , Unit1.Lesson04.Code4_5
-                     , Unit1.Lesson05.MyExampleUrlBuilder
-                     , Unit1.Lesson06.AssignToGroups
-                     , Unit1.Lesson07.MyGCD
-                     , Unit1.Lesson07.SayAmount_v1
-                     , Unit1.Lesson07.SayAmount_v2
-                     , Unit1.Lesson08.Ackermann
-                     , Unit1.Lesson08.Collatz
-                     , Unit1.Lesson08.MyCycle
-                     , Unit1.Lesson08.MyLength
-                     , Unit1.Lesson08.MyTake
-                     , Unit1.Lesson09.MyFilter
-                     , Unit1.Lesson09.MyFoldl
-                     , Unit1.Lesson09.MyFoldr
-                     , Unit1.Lesson09.MyMap
-                     , Unit1.Lesson09.MyReverse
-                     , Unit1.Lesson10.Cup
-                     , Unit1.Lesson10.Robot
-                     , Unit2.Lesson12.Code12_1
-                     , Unit2.Lesson12.Code12_4
-                     , Unit2.Lesson12.Code12_9
-                     , Unit2.Lesson12.Code12_11
-                     , Unit2.Lesson12.Code12_14
-                     , Unit2.Lesson14.Code14_2
-                     , Unit2.Lesson14.Code14_3
-                     , Unit2.Lesson14.Code14_6
-                     , Unit2.Lesson14.Code14_7
-                     , Unit2.Lesson14.Code14_9
-                     , Unit2.Lesson14.Code14_13
-                     , Unit3.Lesson17.Code17_1
-                     , Unit3.Lesson17.Code17_4
-                     , Unit3.Lesson17.Code17_5
-                     , Unit3.Lesson17.Code17_12
-                     , Unit3.Lesson17.Code17_17
-                     , Unit3.Lesson18.Code18_8
-                     , Unit3.Lesson18.Code18_11
-                     , Unit3.Lesson18.Code18_20
-                     , Unit3.Lesson19.Code19_5
-                     , Unit3.Lesson19.Code19_6
-                     , Unit3.Lesson19.Code19_9
-                     , Unit3.Lesson19.Code19_14
-                     , Unit4.Lesson21.Code21_1
-                     , Unit4.Lesson21.Code21_2
-                     , Unit4.Lesson21.Code21_9
-                     , Unit5.Lesson27.Code27_2
-                     , Unit5.Lesson27.Code27_3
-                     , Unit5.Lesson27.Code27_14
+  exposed-modules:     Unit4.Lesson21.Code21_9
   build-depends:       base >= 4.7 && < 5
                      , containers
                      , random
