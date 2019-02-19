@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Unit4.Lesson21.Code21_12
+  exposed-modules:     Unit4.Lesson22.Code22_11
   build-depends:       base >= 4.7 && < 5
                      , containers
                      , random
