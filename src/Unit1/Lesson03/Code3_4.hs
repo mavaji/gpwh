@@ -1,10 +1,10 @@
 module Unit1.Lesson03.Code3_4 where
 
-main3_4 :: IO()
+main3_4 :: IO ()
 main3_4 = do
-  print("add1 1 = " ++ show (add1 1))
-  print("add2 1 = " ++ show (add2 1))
-  print("add3 1 = " ++ show (add3 1))
+  print ("add1 1 = " ++ show (add1 1))
+  print ("add2 1 = " ++ show (add2 1))
+  print ("add3 1 = " ++ show (add3 1))
 
 x = 4
 

@@ -4,8 +4,8 @@ import qualified Data.Map as Map
 
 main19_5 :: IO ()
 main19_5 = do
-    print (countOrgan Brain availableOrgans)
-    print (countOrgan Heart availableOrgans)
+  print (countOrgan Brain availableOrgans)
+  print (countOrgan Heart availableOrgans)
 
 countOrgan :: Organ -> [Maybe Organ] -> Int
 countOrgan organ available = length (filter (\x -> x == Just organ) available)
@@ -15,12 +15,18 @@ availableOrgans = getDrawerContents possibleDrawers organCatalog
 
 getDrawerContents :: [Int] -> Map.Map Int Organ -> [Maybe Organ]
 getDrawerContents ids catalog = map getContents ids
-    where getContents = \id -> Map.lookup id catalog
+  where
+    getContents = \id -> Map.lookup id catalog
 
 possibleDrawers :: [Int]
 possibleDrawers = [1 .. 50]
 
-data Organ = Heart | Brain | Kidney | Spleen deriving (Show, Eq)
+data Organ
+  = Heart
+  | Brain
+  | Kidney
+  | Spleen
+  deriving (Show, Eq)
 
 organs :: [Organ]
 organs = [Heart, Heart, Brain, Spleen, Spleen, Kidney]

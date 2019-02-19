@@ -5,7 +5,7 @@ helloPerson name = "Hello" ++ " " ++ name ++ "!"
 
 main21_1 :: IO ()
 main21_1 = do
-    putStrLn "Hello! What's your name?"
-    name <- getLine
-    let statement = helloPerson name
-    putStrLn statement
+  putStrLn "Hello! What's your name?"
+  name <- getLine
+  let statement = helloPerson name
+  putStrLn statement

@@ -1,6 +1,6 @@
 module Unit1.Lesson01.Code1_6 where
 
-main1_6 :: IO()
+main1_6 :: IO ()
 main1_6 = do
   print "Who is the email for?"
   recipient <- getLine
@@ -16,6 +16,4 @@ bodyPart bookTitle = "Thanks for buying " ++ bookTitle ++ ".\n"
 
 fromPart author = "Thanks,\n" ++ author
 
-createEmail recipient bookTitle author = toPart recipient ++
-                                         bodyPart bookTitle ++
-                                         fromPart author
+createEmail recipient bookTitle author = toPart recipient ++ bodyPart bookTitle ++ fromPart author
