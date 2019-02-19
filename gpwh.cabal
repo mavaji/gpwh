@@ -15,10 +15,11 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Unit4.Lesson22.Code22_11
+  exposed-modules:     Unit4.Lesson23.Code23_11
   build-depends:       base >= 4.7 && < 5
                      , containers
                      , random
+                     , text
   default-language:    Haskell2010
 
 executable gpwh
@@ -29,6 +30,7 @@ executable gpwh
                      , gpwh
                      , containers
                      , random
+                     , text
   default-language:    Haskell2010
 
 test-suite gpwh-test
