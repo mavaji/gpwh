@@ -1,26 +1,29 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import System.IO
-import System.Environment
-import qualified Data.Text as T
-import qualified Data.Text.IO as TIO
+module Unit4.Lesson24.StrictIO where
+
+import qualified Data.Text          as T
+import qualified Data.Text.IO       as TIO
+import           System.Environment
+import           System.IO
 
 getCounts :: T.Text -> (Int, Int, Int)
 getCounts input = (charCount, wordCount, lineCount)
-    where charCount = T.length input
-          wordCount = (length . T.words) input
-          lineCount = (length . T.lines) input
+  where
+    charCount = T.length input
+    wordCount = (length . T.words) input
+    lineCount = (length . T.lines) input
 
 countsText :: (Int, Int, Int) -> T.Text
-countsText (cc, wc, lc) = T.pack(unwords ["chars:",
-    show cc, " words:", show wc, " lines:", show lc])
+countsText (cc, wc, lc) = T.pack (unwords ["chars:", show cc, " words:", show wc, " lines:", show lc])
 
-main :: IO ()
-main = do
-    args <- getArgs
-    let fileName = head args
-    input <- TIO.readFile fileName
-    let summary = (countsText.getCounts) input
-    TIO.appendFile "stats.dat" (mconcat [(T.pack fileName), 
-        " ", summary, "\n"])
-    TIO.putStrLn summary
+mainStrictIO :: IO ()
+mainStrictIO = do
+  args <- getArgs
+  let fileName = head args
+  input <- TIO.readFile fileName
+  let summary = (countsText . getCounts) input
+  TIO.appendFile
+    "/home/vahid/mygithub/gpwh/src/Unit4/Lesson24/stats.dat"
+    (mconcat [(T.pack fileName), " ", summary, "\n"])
+  TIO.putStrLn summary
