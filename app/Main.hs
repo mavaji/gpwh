@@ -1,7 +1,7 @@
 module Main where
 
-import           Unit4.Lesson24.StrictIO
+import           Unit5.Lesson27.Code27_14
 
 main :: IO ()
 main = do
-  mainStrictIO
+  main27_14
