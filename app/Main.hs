@@ -1,7 +1,7 @@
 module Main where
 
-import           Unit5.Lesson31.Code31_18
+import           Unit5.Lesson32.Code32_3
 
 main :: IO ()
 main = do
-  main31_18
+  main32_3
