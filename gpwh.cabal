@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Unit5.Lesson32.Code32_3
+  exposed-modules:     Unit5.Lesson32.Code32_2
   build-depends:       base >= 4.7 && < 5
                      , containers
                      , random
